@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build Job test') {
+        stage('Build Job') {
             steps {
                 sh 'chmod +x build.sh'
                 sh './build.sh'
